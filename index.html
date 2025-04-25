@@ -233,7 +233,7 @@
             expenseList.innerHTML = '';
             for (let category in expenseCategories) {
                 let li = document.createElement('li');
-                li.textContent = `${category}: $${expenseCategories[category].toFixed(2)}`;
+                li.textContent = `${category}: ₹${expenseCategories[category].toFixed(2)}`;
                 expenseList.appendChild(li);
             }
         }
